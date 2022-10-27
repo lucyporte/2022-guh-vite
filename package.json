@@ -15,7 +15,8 @@
 		"@headlessui/react": "^1.7.3",
 		"@heroicons/react": "^2.0.12",
 		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
+		"react-dom": "^18.2.0",
+		"react-social-icons": "^5.15.0"
 	},
 	"devDependencies": {
 		"@headlessui/tailwindcss": "^0.1.1",
