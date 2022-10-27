@@ -1,4 +1,3 @@
-import * as React from 'react';
 import GUHLogo from '../assets/guh.svg';
 
 const NavBar = (): JSX.Element => {

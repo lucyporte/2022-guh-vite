@@ -1,0 +1,53 @@
+[
+	{
+		"name": "Mateusz Krajewski",
+		"role": "Co-Director",
+		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,h_128,w_128/v1666905404/guh-team/Mateusz_Krajewski_yrjn0u.webp"
+	},
+	{
+		"name": "Mihirr Bhaagwat",
+		"role": "Co-Director",
+		"img": ""
+	},
+	{
+		"name": "Maja Drmač",
+		"role": "Advertising",
+		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1666905403/guh-team/Maja_Drmac%CC%8C_mbslfs.webp"
+	},
+	{
+		"name": "Muna Hassan",
+		"role": "Advertising",
+		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1666905403/guh-team/Muna_Hassan_r35zgv.webp"
+	},
+	{
+		"name": "Aryamann Singh",
+		"role": "Logistics",
+		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1666905403/guh-team/Aryamann_Singh_ydcwsr.webp"
+	},
+
+	{
+		"name": "Asma Ali",
+		"role": "Logistics",
+		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1666905403/guh-team/Asma_Ali_unuujd.webp"
+	},
+	{
+		"name": "Sam Khare",
+		"role": "Tech",
+		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_lpad,h_128,q_auto:best,w_128/v1666907649/guh-team/sam_k_odk04d.webp"
+	},
+	{
+		"name": "Lucy Porte",
+		"role": "Tech",
+		"img": ""
+	},
+	{
+		"name": "Luke Braithwaite",
+		"role": "Tech",
+		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_100,w_128/v1666907002/guh-team/IMG_5937_tqkbhm.webp"
+	},
+	{
+		"name": "Divyansh Handa",
+		"role": "Chief flaker",
+		"img": ""
+	}
+]

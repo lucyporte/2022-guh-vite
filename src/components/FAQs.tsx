@@ -1,12 +1,11 @@
-import * as React from 'react';
 import { Disclosure } from '@headlessui/react';
 import { ChevronUpIcon } from '@heroicons/react/20/solid';
 import QuestionData from '@data/faqs.json';
+import Layout from './Layout';
 
 const FAQs = (): JSX.Element => {
 	return (
-		<div id='faqs' className='text-black mt-16 mx-auto w-full px-4 max-w-screen-2xl lg:px-8 pb-8'>
-			<h1 className='text-5xl text-center font-semibold mb-8'>FAQs</h1>
+		<Layout title='FAQs'>
 			<div className='hidden lg:grid grid-cols-3 gap-4 '>
 				{QuestionData.map(({ question, answer }, i) => (
 					<div
@@ -31,7 +30,7 @@ const FAQs = (): JSX.Element => {
 					</Disclosure>
 				))}
 			</div>
-		</div>
+		</Layout>
 	);
 };
 
