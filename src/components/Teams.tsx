@@ -6,8 +6,8 @@ const Team = (): JSX.Element => {
 				{[1, 2, 3, 4, 5].map(i => (
 					<div className='flex flex-col mx-auto hover:-translate-y-1'>
 						<div className='w-32 h-32  bg-black rounded-full'></div>
-						<p className='text-center'>Member {i}</p>
-						<p className='text-center'>Role</p>
+						<p className='text-center text-lg'>Member {i}</p>
+						<p className='text-center text-md'>Role</p>
 					</div>
 				))}
 			</div>
