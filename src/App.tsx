@@ -2,6 +2,7 @@ import * as React from 'react';
 import FAQs from '@components/FAQs';
 import NavBar from '@components/NavBar';
 import About from '@components/About';
+import Team from '@components/Teams';
 
 export default function App() {
 	return (
@@ -24,6 +25,8 @@ export default function App() {
 			<main className='bg-guh-orange'>
 				<About />
 				<FAQs />
+				<Team />
+
 			</main>
 		</div>
 	);
