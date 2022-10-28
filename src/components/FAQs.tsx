@@ -21,12 +21,14 @@ const FAQs = (): JSX.Element => {
 				{QuestionData.map(({ question, answer }, i) => (
 					<Disclosure as={'div'} className='rounded shadow-md px-6 py-4 bg-white' key={`faq_mobile_${i}`}>
 						<Disclosure.Button
-							className={'flex w-full justify-between items-center text-left text-xl font-medium text-gray-900'}
+							className={
+								'flex w-full justify-between items-center text-left text-lg md:text-xl font-medium text-gray-900'
+							}
 						>
 							{question}
 							<ChevronUpIcon className='ui-open:rotate-180 ui-open:transform h-6 w-6 text-gray-900' />
 						</Disclosure.Button>
-						<Disclosure.Panel className={'pt-4 px-2 text-lg text-gray-500'}>{answer}</Disclosure.Panel>
+						<Disclosure.Panel className={'pt-4 px-2 tex-md md:text-lg text-gray-500'}>{answer}</Disclosure.Panel>
 					</Disclosure>
 				))}
 			</div>
