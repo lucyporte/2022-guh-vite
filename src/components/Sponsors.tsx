@@ -1,9 +1,10 @@
 import Layout from './Layout';
+import sponsors from '../assets/sponsors.png';
 
 const Sponsors = (): JSX.Element => {
 	return (
 		<Layout title='Sponsors'>
-			<p>Sponsors go here</p>
+			<img className='w-full' src={sponsors} />
 		</Layout>
 	);
 };

@@ -1,4 +1,3 @@
-import { stringify } from 'querystring';
 import * as React from 'react';
 
 type TProps = {
