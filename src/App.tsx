@@ -14,7 +14,7 @@ export default function App() {
 				<Hero />
 			</div>
 
-			<main className='bg-guh-orange'>
+			<main className='bg-guh-orange pb-16'>
 				<About />
 				<FAQs />
 				<Team />

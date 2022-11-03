@@ -1,5 +1,4 @@
 import Layout from './Layout';
-import sponsors from '../assets/sponsors.png';
 import palantir from '../assets/Sponsors/Palantir.png';
 import devotee1 from '../assets/Sponsors/devotee1.png';
 import devotee2 from '../assets/Sponsors/devotee2.png';
@@ -12,64 +11,62 @@ import partner2 from '../assets/Sponsors/partner2.png';
 import partner3 from '../assets/Sponsors/partner3.png';
 import partner4 from '../assets/Sponsors/partner4.png';
 
-// import sponsor from '@data/sponsor.json';
-
 
 const Sponsors = (): JSX.Element => {
-	return (
-		<Layout title='Sponsors'>
-			
-			<h2 className='flex flex-col mx-auto  items-center'>Forerunner</h2>
-			<div className='grid-gap: 20px grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-1 gap-4 items-center'>
-			<a href="https://www.palantir.com/uk/careers/">
-				 <img className='h-36 w-50 hover:-translate-y-1' src={palantir} />
-			</a>
-			</div>
-			<h2 className='flex flex-col mx-auto  items-center'>Devotee</h2>
-			<div className='grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4'>
-				<a href="https://careers.booking.com/?utm_source=corporate&utm_medium=footer">
-							<img className='hover:-translate-y-1' src={devotee1} />
-				</a>
-				<a href="https://www.bet365careers.com/en/current-vacancies">
-							<img className='hover:-translate-y-1' src={devotee2} />
-				</a>
-				<a href="https://netcraft.com/jobs">
-							<img className='hover:-translate-y-1' src={devotee3} />
-				</a> 
-			</div>
-			<h2 className='flex flex-col mx-auto items-center'>Enthusiast</h2>
-			<div className='grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-4'>
-				<a href="https://www.mwam.com/join-us/">
-							<img className='h-50 w-full hover:-translate-y-1' src={enthusiast1} />
-				</a>
-				<a href="https://www.recourseai.com/">
-							<img className='w-full hover:-translate-y-1' src={enthusiast2} />
-				</a> 
-			</div>
-			<h2 className='flex flex-col mx-auto items-center'>Advocate</h2>
-			<div className='grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4'>
-				<a href="https://www.atmosi.com/en">
-							<img className='h-36 w-50 hover:-translate-y-1' src={advocate1} />
-				</a>
-			</div>
-			<h2 className='flex flex-col mx-auto  items-center'>Partners</h2>
-			<div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4'>
-				<a href="https://www.mmu.ac.uk/">
-							<img className=' h-36 w-50 hover:-translate-y-1' src={partner1} />
-				</a>	
-				<a href="https://www.standoutstickers.com/?utm_campaign=events-league-organizers-spring2022&utm_medium=email&utm_source=customerio-zoho_creator_-_standout_sticker_intro">
-							<img className=' h-36 w-50 hover:-translate-y-1' src={partner4} />	
-				</a>
-				<a href="https://mlh.io/">
-							<img className=' h-36 w-50 hover:-translate-y-1' src={partner2} />	
-				</a>
-				<a href="https://hackathons.org.uk/">
-							<img className=' h-36 w-50 hover:-translate-y-1' src={partner3} />
-				</a>
-			</div>
-			
-		</Layout>
-	);
+    return (
+        <Layout title='Sponsors'>
+            <h2 className='text-center text-3xl'>Forerunner</h2>
+            <div className='flex flex-row mx-auto justify-center'>
+                <a href="https://www.palantir.com/uk/careers/">
+                    <img className='h-36 w-50 hover:-translate-y-1' src={palantir}/>
+                </a>
+            </div>
+            <h2 className='text-center text-3xl'>Devotee</h2>
+            <div
+                className='grid md:grid-cols-3 grid-cols-1 gap-4 justify-self-center'
+            >
+                <a href="https://careers.booking.com/?utm_source=corporate&utm_medium=footer">
+                    <img className='hover:-translate-y-1' src={devotee1}/>
+                </a>
+                <a className="flex flex-row justify-center" href="https://www.bet365careers.com/en/current-vacancies">
+                    <img className='hover:-translate-y-1' src={devotee2}/>
+                </a>
+                <a href="https://netcraft.com/jobs">
+                    <img className='hover:-translate-y-1' src={devotee3}/>
+                </a>
+            </div>
+            <h2 className='text-center text-3xl'>Enthusiast</h2>
+            <div className='flex flex-col md:flex-row md:space-x-16 justify-center items-center'>
+                <a href="https://www.mwam.com/join-us/">
+                    <img className='h-48 hover:-translate-y-1' src={enthusiast1}/>
+                </a>
+                <a href="https://www.recourseai.com/">
+                    <img className='h-48 hover:-translate-y-1' src={enthusiast2}/>
+                </a>
+            </div>
+            <h2 className='text-center text-3xl'>Advocate</h2>
+            <div className='md:flex-row flex-col items-center flex justify-center'>
+                <a href="https://www.atmosi.com/en">
+                    <img className='h-36 w-50 hover:-translate-y-1' src={advocate1}/>
+                </a>
+            </div>
+            <h2 className='text-center text-3xl'>Partners</h2>
+            <div className='flex flex-col md:flex-row space-x-8 items-center justify-center'>
+                <a href="https://www.mmu.ac.uk/">
+                    <img className='w-64 hover:-translate-y-1' src={partner1}/>
+                </a>
+                <a href="https://www.standoutstickers.com/?utm_campaign=events-league-organizers-spring2022&utm_medium=email&utm_source=customerio-zoho_creator_-_standout_sticker_intro">
+                    <img className='w-64 hover:-translate-y-1' src={partner4}/>
+                </a>
+                <a href="https://mlh.io/">
+                    <img className='w-64 hover:-translate-y-1' src={partner2}/>
+                </a>
+                <a href="https://hackathons.org.uk/">
+                    <img className='w-64 hover:-translate-y-1' src={partner3}/>
+                </a>
+            </div>
+        </Layout>
+    );
 };
 
 export default Sponsors;
