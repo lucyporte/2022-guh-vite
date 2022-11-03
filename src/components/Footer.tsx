@@ -2,7 +2,7 @@ import { SocialIcon } from 'react-social-icons';
 
 const Footer = (): JSX.Element => {
 	return (
-		<footer className='bg-black text-white flex flex-col items-center pt-8 pb-4'>
+		<footer className='bg-black text-white flex flex-col items-center pt-16 pb-4'>
 			<div className='social-media space-x-4'>
 				<SocialIcon url='https://www.facebook.com/unicsmcr' bgColor='white' />
 				<SocialIcon url='https://www.instagram.com/unicsmcr/' bgColor='white' />
