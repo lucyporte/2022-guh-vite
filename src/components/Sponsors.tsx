@@ -33,7 +33,7 @@ const Sponsors = (): JSX.Element => {
                 <a href="https://careers.booking.com/?utm_source=corporate&utm_medium=footer" target="_blank">
                     <img className='hover:-translate-y-1' src={devotee1}/>
                 </a>
-                <a className="flex flex-row justify-center " href="https://www.bet365careers.com/en/current-vacancies" target="_blank">
+                <a className="flex flex-row justify-center " href="https://www.bet365careers.com/en" target="_blank">
                     <img className='hover:-translate-y-1' src={devotee2}/>
                 </a>
                 <a href="https://netcraft.com/jobs" target="_blank">
