@@ -2,47 +2,56 @@
 	{
 		"name": "Mateusz Krajewski",
 		"role": "Co-Director",
-		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,h_128,w_128/v1666905404/guh-team/Mateusz_Krajewski_yrjn0u.webp"
+		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,h_128,w_128/v1666905404/guh-team/Mateusz_Krajewski_yrjn0u.webp",
+		"linkedin": "https://www.linkedin.com/in/mkrajewski14/"
 	},
 	{
 		"name": "Mihirr Bhaagwat",
 		"role": "Co-Director",
-		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1667222453/guh-team/Mihirr_qhf6lh.webp"
+		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1667222453/guh-team/Mihirr_qhf6lh.webp",
+		"linkedin": "https://www.linkedin.com/in/mihirr-m-bhaagwat-9374a1231/"
 	},
 	{
 		"name": "Maja Drmač",
 		"role": "Advertising",
-		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1666905403/guh-team/Maja_Drmac%CC%8C_mbslfs.webp"
+		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1666905403/guh-team/Maja_Drmac%CC%8C_mbslfs.webp",
+		"linkedin": "https://www.linkedin.com/in/drmacmaja/"
 	},
 	{
 		"name": "Muna Hassan",
 		"role": "Advertising",
-		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1666905403/guh-team/Muna_Hassan_r35zgv.webp"
+		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1666905403/guh-team/Muna_Hassan_r35zgv.webp",
+		"linkedin": "https://www.linkedin.com/in/muna-a-hassan/"
 	},
 	{
 		"name": "Aryamann Singh",
 		"role": "Logistics",
-		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1666905403/guh-team/Aryamann_Singh_ydcwsr.webp"
+		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1666905403/guh-team/Aryamann_Singh_ydcwsr.webp",
+		"linkedin": "https://www.linkedin.com/in/aryamann-singh-a18140171/"
 	},
 
 	{
 		"name": "Asma Ali",
 		"role": "Logistics",
-		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1666905403/guh-team/Asma_Ali_unuujd.webp"
+		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1666905403/guh-team/Asma_Ali_unuujd.webp",
+		"linkedin": "https://www.linkedin.com/in/asma-ali-05938124a/"
 	},
 	{
 		"name": "Sam Khare",
 		"role": "Tech",
-		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1666912383/guh-team/IMG_3640_wxs41y.webp"
+		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1666912383/guh-team/IMG_3640_wxs41y.webp",
+		"linkedin": "https://www.linkedin.com/in/khare-sambbhav/"
 	},
 	{
 		"name": "Lucy Porte",
 		"role": "Tech",
-		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1667223544/guh-team/Lucy_2_ofmoyk.webp"
+		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_auto:best,w_128/v1667223544/guh-team/Lucy_2_ofmoyk.webp",
+		"linkedin": "https://www.linkedin.com/in/lucy-porte-621432146/"
 	},
 	{
 		"name": "Luke Braithwaite",
 		"role": "Tech",
-		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_100,w_128/v1666907002/guh-team/IMG_5937_tqkbhm.webp"
+		"img": "https://res.cloudinary.com/deftfvpyy/image/upload/c_scale,q_100,w_128/v1666907002/guh-team/IMG_5937_tqkbhm.webp",
+		"linkedin": "https://www.linkedin.com/in/luke-braithwaite/"
 	}
 ]
